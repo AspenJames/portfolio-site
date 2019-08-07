@@ -26,7 +26,7 @@
 }
 
 .active {
-	color: fuchsia;
+	color: aliceblue;
 }
 
 #navContainer {
@@ -47,4 +47,31 @@
 	width: 200px;
 	height: auto;
 	border-radius: 100px;
+}
+
+.container {
+	position: relative;
+	align-self: center;
+	align-content: center;
+	vertical-align: middle;
+	width: 60%;
+	margin: auto;
+	top: 45%;
+	transform: translateY(-50%);
+}
+
+.container p {
+	color: aliceblue;
+	font-size: 1.2em;
+	line-height: 1.5;
+}
+
+.mainHeading {
+	font-size: 4em;
+	color: aliceblue;
+}
+
+.subHeading {
+	font-size: 2em;
+	color: aliceblue;
 }
