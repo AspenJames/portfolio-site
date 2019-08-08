@@ -75,3 +75,12 @@
 	font-size: 2em;
 	color: aliceblue;
 }
+
+.container p a {
+	text-decoration: none;
+	color: aqua;
+}
+
+#contact {
+	font-size: 1.5em;
+}
