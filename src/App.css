@@ -91,6 +91,9 @@
 	.mainContent {
 		height:  100%;
 		min-height:  100vh;
+		margin-left: 10px;
+		margin-right: 10px;
+		padding-top:  30px;
 	}
 
 	.navBar img {
@@ -126,23 +129,59 @@
 	#navContainer a:not(:first-child) {
 		display: none;
 	}
+
 	#navContainer i {
 		float: left;
 		display: block;
 		font-size: 3em;
+		color: #666;
 	}
-	#navContainer.responsive {position: relative;}
-  #navContainer.responsive i {
-    position: absolute;
-    right: 0;
-    top: 0;
-		display: none;
-  }
+
+	#navContainer.responsive {
+		position: relative;
+		background-color: #333;
+		height: 3em;
+	}
+
+	#navContainer.responsive i {
+		float: left;
+		display: inline-block;
+		font-size: 3em;
+		color: #666;
+	}
+
   #navContainer.responsive a {
     float: none;
-    display: block;
+    display: inline-block;
     text-align: left;
+		font-size: 1.5em;
 		padding-left: 10px;
-		padding-bottom: 10px;
+		padding-bottom: 6px;
+		padding-top: 10px;
   }
+
+	.container p {
+		color: aliceblue;
+		font-size: 1em;
+		line-height: 1.25;
+	}
+
+	.container p a {
+		text-decoration: none;
+		color: aqua;
+	}
+
+	.mainHeading {
+		font-size: 2em;
+		color: aliceblue;
+	}
+
+	.subHeading {
+		font-size: 1.5em;
+		color: aliceblue;
+	}
+
+	#contact {
+		font-size: 1.5em;
+	}
 }
