@@ -1,8 +1,11 @@
 import React from 'react';
 
+import { profilePhoto } from '../photoSrc';
+
 function Contact() {
 	return (
 		<div className='container'>
+			<img id='profilephotoContent' src={profilePhoto} alt='profile' />
 			<h1 className='mainHeading'>Hello!</h1>
 			<div id='contact'>
 				<p>Type: <a href='mailto:aspenjames@tqca.org'>aspenjames@tqca.org</a></p>

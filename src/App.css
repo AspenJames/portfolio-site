@@ -41,10 +41,14 @@
 	}
 
 
-	#profilephoto {
+	#profilephotoNav {
 		width: 200px;
 		height: auto;
 		border-radius: 100px;
+	}
+
+	#profilephotoContent {
+		display: none;
 	}
 
 	.container {
@@ -85,7 +89,16 @@
 	.App {
 		text-align: center;
 		width: 100%;
+	}
+
+	html {
 		background-color: #222;
+	}
+
+	#profilephotoContent {
+		width: 200px;
+		height: auto;
+		border-radius: 100px;
 	}
 
 	.mainContent {
@@ -96,7 +109,7 @@
 		padding-top:  30px;
 	}
 
-	.navBar img {
+	#profilephotoNav {
 		/* float: right;
 		width: 100px;
 		height: auto;
@@ -124,9 +137,10 @@
 
 	#navContainer {
 		overflow: hidden;
+		padding: 5px 10px 5px 10px;
 	}
 
-	#navContainer a:not(:first-child) {
+	#navContainer a {
 		display: none;
 	}
 
@@ -159,6 +173,11 @@
 		padding-bottom: 6px;
 		padding-top: 10px;
   }
+
+	.container {
+		max-width: 600px;
+		margin: auto;
+	}
 
 	.container p {
 		color: aliceblue;

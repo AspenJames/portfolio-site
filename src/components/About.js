@@ -1,8 +1,11 @@
 import React from 'react';
 
+import { profilePhoto } from '../photoSrc';
+
 function About() {
 	return (
 		<div className='container'>
+			<img id='profilephotoContent' src={profilePhoto} alt='profile' />
 			<h1 className='mainHeading'>Aspen James</h1>
 			<h2 className='subHeading'>Software Developer, Linux Lover, Tree Hugger</h2>
 

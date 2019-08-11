@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+
 import { profilePhoto } from '../photoSrc';
 
 function NavBar() {
@@ -26,7 +27,7 @@ function NavBar() {
 
 	return (
 		<div id='navContainer' ref={navRef}>
-			<img id='profilephoto' src={profilePhoto} alt='profile' />
+			<img id='profilephotoNav' src={profilePhoto} alt='profile' />
 			<NavLink to='/' exact
 				onClick={handleNav}
 				activeClassName='active'
