@@ -1,6 +1,3 @@
-a:hover { color: lime; }
-.container p a:hover { color: lime; }
-
 @media only screen and (min-width: 901px) {
 	.App {
 		text-align: center;
