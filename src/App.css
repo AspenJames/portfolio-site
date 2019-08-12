@@ -1,4 +1,4 @@
-@media only  screen and (min-width: 901px) {
+@media only screen and (min-width: 901px) {
 	.App {
 		text-align: center;
 		display: grid;
@@ -27,6 +27,8 @@
 		top: 50%;
 		transform: translateY(-50%);
 	}
+
+	#navContainer i { display: none; }
 
 	.navLink {
 		display: block;
@@ -102,18 +104,14 @@
 	}
 
 	.mainContent {
-		height:  100%;
-		min-height:  100vh;
+		height: 100%;
+		min-height: 100vh;
 		margin-left: 10px;
 		margin-right: 10px;
-		padding-top:  30px;
+		padding-top: 30px;
 	}
 
 	#profilephotoNav {
-		/* float: right;
-		width: 100px;
-		height: auto;
-		border-radius: 50px; */
 		display: none;
 	}
 
@@ -128,7 +126,7 @@
 		color: aqua;
 		text-align: center;
 		text-decoration: none;
-		font-size:  2em;
+		font-size: 2em;
 	}
 
 	.active {
@@ -164,15 +162,15 @@
 		color: #666;
 	}
 
-  #navContainer.responsive a {
-    float: none;
-    display: inline-block;
-    text-align: left;
+	#navContainer.responsive a {
+		float: none;
+		display: inline-block;
+		text-align: left;
 		font-size: 1.5em;
 		padding-left: 10px;
 		padding-bottom: 6px;
 		padding-top: 10px;
-  }
+	}
 
 	.container {
 		max-width: 600px;
