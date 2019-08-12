@@ -28,6 +28,7 @@ function NavBar() {
 	return (
 		<div id='navContainer' ref={navRef}>
 			<img id='profilephotoNav' src={profilePhoto} alt='profile' />
+			<i className={iconClass} onClick={handleClick} />
 			<NavLink to='/' exact
 				onClick={handleNav}
 				activeClassName='active'
@@ -40,7 +41,8 @@ function NavBar() {
 				onClick={handleNav}
 				activeClassName='active'
 				className='navLink'>Contact</NavLink>
-			<i className={iconClass} onClick={handleClick} />
+			<a href='https://aspenjames.dev/resume'
+				 className='navLink'>Resume</a>
 		</div>
 	);
 }

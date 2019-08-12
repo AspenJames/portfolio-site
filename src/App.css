@@ -1,3 +1,6 @@
+a:hover { color: lime; }
+.container p a:hover { color: lime; }
+
 @media only screen and (min-width: 901px) {
 	.App {
 		text-align: center;
@@ -32,7 +35,7 @@
 
 	.navLink {
 		display: block;
-		font-size: 4em;
+		font-size: 3em;
 		color: aqua;
 		text-decoration: none;
 		padding: 20px;
@@ -136,6 +139,7 @@
 	#navContainer {
 		overflow: hidden;
 		padding: 5px 10px 5px 10px;
+		transition: all 0.5s ease;
 	}
 
 	#navContainer a {
@@ -152,24 +156,25 @@
 	#navContainer.responsive {
 		position: relative;
 		background-color: #333;
-		height: 3em;
+		height: fit-content;
+		transition: all 0.5s ease;
 	}
 
 	#navContainer.responsive i {
-		float: left;
-		display: inline-block;
+		float: none;
+		display: block;
+		text-align: left;
 		font-size: 3em;
 		color: #666;
 	}
 
 	#navContainer.responsive a {
 		float: none;
-		display: inline-block;
+		display: block;
 		text-align: left;
 		font-size: 1.5em;
-		padding-left: 10px;
-		padding-bottom: 6px;
-		padding-top: 10px;
+		padding-left: 5px;
+		padding-bottom: 5px;
 	}
 
 	.container {
