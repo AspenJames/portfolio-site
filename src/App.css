@@ -85,7 +85,39 @@
 	#contact {
 		font-size: 1.5em;
 	}
+
+	/************* Project Styles *************/
+
+	#projectContainer {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+	}
+
+	.projectCard {
+		width: 35%;
+		margin: auto;
+	}
+
+	.projectLink {
+		color: aqua;
+		text-decoration: none;
+	}
+
+	.projectImg {
+		width: 85%;
+		height: auto;
+		display: block;
+		margin: auto;
+		padding-top: 20px;
+	}
+
+	.projectTitle {
+		color: aliceblue;
+	}
 }
+
+/****************** Mobile Styles ******************/
 
 @media only screen and (max-width: 900px) {
 	.App {
@@ -202,5 +234,30 @@
 
 	#contact {
 		font-size: 1.5em;
+	}
+
+	/************* Project Styles *************/
+
+	.projectCard {
+		width: 75vw;
+		margin: auto;
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.projectLink {
+		color: aqua;
+		text-decoration: none;
+	}
+
+	.projectImg {
+		width: 60vw;
+		height: auto;
+		display: block;
+		margin: auto;
+	}
+
+	.projectTitle {
+		color: aliceblue;
 	}
 }
