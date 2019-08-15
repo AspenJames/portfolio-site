@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-
 import ProjectCard from './ProjectCard';
 
 function Projects() {
@@ -21,7 +20,7 @@ function Projects() {
 
 	return (
 		<div className='container'>
-			<h1 className='mainHeading'>Project Showcase</h1>
+			<h1 className='mainHeading' id='proj'>Project Showcase</h1>
 
 			<div id='projectContainer'>
 
